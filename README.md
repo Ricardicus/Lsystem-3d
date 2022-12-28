@@ -16,8 +16,9 @@ Here is a link to a demo version:
 
 [https://me.ricardicus.se/lsystem-3d](https://me.ricardicus.se/lsystem-3d)
 
-I also have a 2D version:
-[https://me.ricardicus.se/lsystem-3d](https://me.ricardicus.se/lsystem)
+I also have also made a 2D version:
+
+[https://me.ricardicus.se/lsystem](https://me.ricardicus.se/lsystem)
 
 # Snapshot image
 
