@@ -325,8 +325,10 @@ mov(100/(g+1)+random(-5,5),4/(g+1))
       if ( this.state.chosenDepth > 14 ) {
          depthNotice = <div><small style={{"color":"red", "font-size":"50%"}}>Higher depths take longer time to generate</small><br/></div>
       }
-		return (
-			<div style={{position:"absolute", top:"0px"}}>
+      return (
+         <div style={{position:"absolute", top:"0px"}}>
+            <center>
+               <div id="selector-change-div">
 				<p>Lindenmayer system:</p>
 				<textarea style={{ width: "20%", minWidth:"200px" }}
 					rows="12"
@@ -360,8 +362,24 @@ mov(100/(g+1)+random(-5,5),4/(g+1))
          <br/>
 				<button onClick={() => { this.props.onHandleNewLSystem(this.state.currentText, this.state.chosenDepth);}}>Generate</button>
             <br/>
-            <br />
-            <a style={{ color: "white" }} href="https://github.com/Ricardicus/lsystem-3d">Link to source code</a><br /><br /><br />
+            <a style={{ color: "white" }} href="https://github.com/Ricardicus/lsystem-3d">Link to source code</a><br />
+         </div>
+
+            <button id="selector-change" value="hide" onClick={() => {
+               var c = document.getElementById("selector-change"); 
+               var d = document.getElementById("selector-change-div");
+               if ( c.value == "hide" ) { 
+                  c.value = "edit";
+                  c.innerHTML = "Edit";
+                  d.style.display = "none";
+               } else {
+                  c.value = "hide";
+                  c.innerHTML = "Hide";
+                  d.style.display = "inherit";
+               }
+            }}>Hide</button>
+
+      </center>
 			</div>);
 	}
 
