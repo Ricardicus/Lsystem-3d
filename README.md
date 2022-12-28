@@ -18,7 +18,7 @@ Here is a link to a demo version:
 
 # Snapshot image
 
-![Skärmavbild 2022-10-28 kl  07 25 59](https://user-images.githubusercontent.com/14809962/198509880-e0fb739a-312d-4535-9e9b-6357d63babb6.png)
+![Skärmavbild](https://user-images.githubusercontent.com/14809962/209875645-332980ea-c828-4631-9c4b-b2bb67ead0f8.png)
 
 # Quirks and howto:s
 
