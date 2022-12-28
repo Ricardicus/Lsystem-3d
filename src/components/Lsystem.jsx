@@ -67,8 +67,8 @@ class LSystem extends Component {
 
             <div
                style={{
-                  height: "80vh",
-                  width: "80vw",
+                  height: "100vh",
+                  width: "100vw",
                }}
             >
                <Canvas

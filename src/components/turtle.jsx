@@ -74,7 +74,7 @@ function Cylinder3d({ pointX, pointY, width }) {
       >
          <cylinderGeometry args={[width, width, direction.length() * 2, 10]} />
          <meshStandardMaterial
-            color={hovered ? "hotpink" : "orange"}
+            color={hovered ? "hotpink" : "white"}
          />
       </mesh>
    );

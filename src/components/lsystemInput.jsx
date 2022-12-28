@@ -61,7 +61,7 @@ B() ->
 mov(1,2)
 B()
 B()
-`, depth: 7
+`, depth: 6
          },{
          lsystem: `A() ->
 B()
@@ -76,7 +76,7 @@ B() ->
 mov(3,2)
 B()
 B()
-`, depth: 5
+`, depth: 4
          },
          {
          lsystem: `A() ->
@@ -279,7 +279,7 @@ mov(100/(g+1)+random(-5,5),5/(g+1))
 [penUp(random(0,5))rot(random(-45,45), random(-30,30))A(g=g+1)]
 
 `,
-         depth: 9
+         depth: 8
       },
 {
          lsystem: `A(g=0) -> 
@@ -326,7 +326,7 @@ mov(100/(g+1)+random(-5,5),4/(g+1))
          depthNotice = <div><small style={{"color":"red", "font-size":"50%"}}>Higher depths take longer time to generate</small><br/></div>
       }
 		return (
-			<div>
+			<div style={{position:"absolute", top:"0px"}}>
 				<p>Lindenmayer system:</p>
 				<textarea style={{ width: "20%", minWidth:"200px" }}
 					rows="12"
@@ -359,7 +359,9 @@ mov(100/(g+1)+random(-5,5),4/(g+1))
          </select>
          <br/>
 				<button onClick={() => { this.props.onHandleNewLSystem(this.state.currentText, this.state.chosenDepth);}}>Generate</button>
-         <br/>
+            <br/>
+            <br />
+            <a style={{ color: "white" }} href="https://github.com/Ricardicus/lsystem-3d">Link to source code</a><br /><br /><br />
 			</div>);
 	}
 
