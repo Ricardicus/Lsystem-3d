@@ -14,7 +14,7 @@ This parser can parse either lstrings or entire axiom definitions.
 
 Here is a link to a demo version:
 
-[https://me.ricardicus.se/lsystem](https://me.ricardicus.se/lsystem)
+[https://me.ricardicus.se/lsystem-3d](https://me.ricardicus.se/lsystem-3d)
 
 # Snapshot image
 
