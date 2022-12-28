@@ -101,52 +101,52 @@ B(g=g+1)`, depth: 5
          },
          {
             lsystem: `A() ->
-rot(-30, random(-20,20))
+rot(-30)
 B(),
 B() ->
 C()
-rot(120, random(-20,20))
+rot(120)
 C()
-rot(120, random(-20,20))
+rot(120)
 C(),
 C() ->
 C()
 mov(2,2)
-rot(-60, random(-20,20))
+rot(-60)
 C()
-rot(120, random(-20,20))
+rot(120)
 C()
-rot(-60, random(-20,20))
+rot(-60)
 mov(2,2)
 C()`, depth: 5
          },
          {
             lsystem:
             `A() ->
-rot(45, random(-20,20))
+rot(45)
 B()
-rot(-90, random(-10,10))
+rot(-90)
 B()
-rot(-90, random(-10,10))
+rot(-90)
 B()
-rot(-90, random(-10,10))
+rot(-90)
 B()
-rot(-90, random(-10,10)),
+rot(-90),
 B() ->
 mov(3,2)
 B()
-rot(-90, random(-10,10))
+rot(-90)
 B()
-rot(90, random(-10,10))
+rot(90)
 B()
-rot(90, random(-10,10))
+rot(90)
 B()
 B()
-rot(-90, random(-10,10))
+rot(-90)
 B()
-rot(-90, random(-10,10))
+rot(-90)
 B()
-rot(90, random(-10,10))
+rot(90)
 B()`,
             depth: 4
          },
