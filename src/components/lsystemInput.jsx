@@ -326,7 +326,7 @@ mov(100/(g+1)+random(-5,5),4/(g+1))
          depthNotice = <div><small style={{"color":"red", "font-size":"50%"}}>Higher depths take longer time to generate</small><br/></div>
       }
       return (
-         <div style={{position:"absolute", top:"0px"}}>
+         <div style={{position:"absolute", top:"0px", paddingLeft: "10px"}}>
             <center>
                <div id="selector-change-div">
 				<p>Lindenmayer system:</p>
